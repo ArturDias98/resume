@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artur Dias Rodrigues Vicente - Currículo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        header {
+            border-bottom: 3px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+        
+        .contact-info {
+            color: #555;
+            font-size: 0.95em;
+        }
+        
+        .contact-info p {
+            margin: 5px 0;
+        }
+        
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 8px;
+        }
+        
+        h3 {
+            color: #34495e;
+            font-size: 1.3em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        h4 {
+            color: #2c3e50;
+            font-size: 1.2em;
+            margin-top: 15px;
+            margin-bottom: 8px;
+        }
+        
+        p {
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        strong {
+            color: #2c3e50;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+        }
+        
+        .job-period {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        
+        .technologies {
+            background-color: #ecf0f1;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-size: 0.95em;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+        }
+        
+        .skill-category {
+            margin-bottom: 10px;
+        }
+        
+        .skill-category strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        @media print {
+            body {
+                background-color: #fff;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Artur Dias Rodrigues Vicente</h1>
+            <div class="contact-info">
+                <p><strong>Data de nascimento:</strong> 18/03/1998</p>
+                <p><strong>Endereço:</strong> Serra, Espirito Santo, Brasil, Rua Amazonas, 668, 29168703</p>
+                <p><strong>Email:</strong> <a href="mailto:arturdrv@gmail.com">arturdrv@gmail.com</a></p>
+                <p><a href="https://www.linkedin.com/in/artur-dias-750082247/" target="_blank">LinkedIn</a></p>
+            </div>
+        </header>
+
+        <section class="section">
+            <h2>Resumo Profissional</h2>
+            <p>
+                Sou formado em Engenharia de Controle e Automação, com experiência consolidada na área de desenvolvimento de software. 
+                Ao longo de mais de 4 anos de atuação, desenvolvi expertise em aplicações web modernas com Blazor (WebAssembly, Server e Hybrid), 
+                Razor Pages e integração de sistemas na nuvem AWS. 
+                Iniciei minha carreira na Tozato Measurements, onde desenvolvi um ERP corporativo completo utilizando Blazor, SignalR e Entity Framework, criando interfaces interativas e responsivas com comunicação em tempo real. 
+                Atualmente atuo na Auvo, focando em soluções web escaláveis, APIs RESTful e arquitetura de microsserviços utilizando 
+                AWS Lambda, RDS, DynamoDB e SQS. Tenho forte domínio em Entity Framework, SQL Server e práticas de desenvolvimento ágil.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>Formação Acadêmica</h2>
+            <h4>Engenharia de Controle e Automação</h4>
+            <p><strong>IFES – Instituto Federal do Espírito Santo</strong></p>
+            <p class="job-period">Período: 01/01/2017 – 01/12/2025</p>
+        </section>
+
+        <section class="section">
+            <h2>Experiência Profissional</h2>
+            
+            <h3>Tozato Measurements</h3>
+            <p class="job-period">Período: 01/11/2020 – 01/11/2024</p>
+            <ul>
+                <li>Desenvolvimento de <strong>ERP corporativo</strong> utilizando <strong>.NET, Blazor, Entity Framework, Minimal APIs e SQL Server</strong>, integrando módulos de vendas, estoque, financeiro e produção</li>
+                <li>Implementação de <strong>atualizações em tempo real</strong> com <strong>SignalR</strong> para sincronização instantânea de modificações no ERP entre múltiplos usuários e dispositivos</li>
+                <li>Criação de <strong>interfaces responsivas e interativas</strong> com <strong>Blazor WebAssembly</strong> e <strong>Blazor Server</strong>, proporcionando experiência de usuário fluida e moderna</li>
+                <li>Desenvolvimento de <strong>relatórios dinâmicos e dashboards</strong> para análise de dados de vendas, estoque e produção, com exportação em múltiplos formatos (PDF, Excel)</li>
+                <li>Otimização de <strong>queries SQL</strong> e implementação de <strong>índices</strong> para melhorar performance de consultas complexas em grandes volumes de dados</li>
+                <li>Implementação de <strong>autenticação e autorização</strong> baseada em roles, garantindo segurança e controle de acesso granular aos módulos do sistema</li>
+                <li>Automatização de processos internos com <strong>Entity Framework</strong> e <strong>LINQ</strong>, reduzindo tempo operacional e aumentando eficiência</li>
+                <li>Publicação e deployment da aplicação ERP utilizando <strong>Docker</strong>, garantindo portabilidade, consistência entre ambientes e facilidade de escalabilidade</li>
+            </ul>
+            <div class="technologies">
+                <strong>Tecnologias utilizadas:</strong> Blazor, Entity Framework, Minimal APIs, SignalR, SQL Server, Docker, .NET
+            </div>
+
+            <h3>Auvo</h3>
+            <p class="job-period">Período: 01/11/2024 – presente</p>
+            <ul>
+                <li>Desenvolvimento de aplicações web com <strong>Razor Pages</strong> e <strong>JavaScript</strong>, entregando soluções ágeis e escaláveis</li>
+                <li>Criação de <strong>APIs</strong> utilizando <strong>ASP.NET</strong> e <strong>AWS Lambda</strong>, garantindo alta performance e integração eficiente entre sistemas</li>
+                <li>Integração de aplicações com <strong>SQL Server</strong> hospedado em <strong>Amazon RDS</strong>, assegurando consistência e confiabilidade dos dados</li>
+                <li>Utilização de <strong>Amazon DynamoDB</strong> para armazenamento flexível e de alta disponibilidade</li>
+                <li>Implementação de filas de mensagens com <strong>Amazon SQS</strong>, otimizando comunicação assíncrona e aumentando a robustez das aplicações</li>
+            </ul>
+            <div class="technologies">
+                <strong>Tecnologias utilizadas:</strong> RDS, SQS, AWS Lambda, JavaScript, DynamoDB, Razor Pages, .NET, MVC
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Certificações</h2>
+            <ul>
+                <li><strong>Acesso a dados com .Net</strong> | balta.io</li>
+                <li><strong>Fundamentos do ASP.NET</strong> | balta.io</li>
+                <li><strong>Fundamentos do Entity Framework</strong> | balta.io</li>
+                <li><strong>Fundamentos do Event-Driven Architecture</strong> | balta.io</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Idiomas</h2>
+            <ul>
+                <li><strong>Português:</strong> Nativo</li>
+                <li><strong>Inglês:</strong> Proficiente</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <strong>Linguagens de Programação:</strong>
+                    C#, JavaScript
+                </div>
+                <div class="skill-category">
+                    <strong>Frameworks e Tecnologias .NET:</strong>
+                    ASP.NET, Blazor, Entity Framework, Razor Pages, Minimal APIs, SignalR, LINQ, MVC
+                </div>
+                <div class="skill-category">
+                    <strong>Cloud Computing (AWS):</strong>
+                    AWS Lambda, Amazon RDS, Amazon DynamoDB, Amazon SQS
+                </div>
+                <div class="skill-category">
+                    <strong>Banco de Dados:</strong>
+                    SQL Server, MySQL, DynamoDB
+                </div>
+                <div class="skill-category">
+                    <strong>Containerização e Deploy:</strong>
+                    Docker
+                </div>
+                <div class="skill-category">
+                    <strong>Controle de Versão:</strong>
+                    Git
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
