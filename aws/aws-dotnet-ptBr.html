@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artur Dias Rodrigues Vicente - Currículo AWS & .NET</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        header {
+            border-bottom: 3px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+        
+        .contact-info {
+            color: #555;
+            font-size: 0.95em;
+        }
+        
+        .contact-info p {
+            margin: 5px 0;
+        }
+        
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 8px;
+        }
+        
+        h3 {
+            color: #34495e;
+            font-size: 1.3em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        h4 {
+            color: #2c3e50;
+            font-size: 1.2em;
+            margin-top: 15px;
+            margin-bottom: 8px;
+        }
+        
+        p {
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        strong {
+            color: #2c3e50;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+        }
+        
+        .job-period {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        
+        .technologies {
+            background-color: #ecf0f1;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-size: 0.95em;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+        }
+        
+        .skill-category {
+            margin-bottom: 10px;
+        }
+        
+        .skill-category strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .competency-item {
+            margin-bottom: 12px;
+        }
+        
+        @media print {
+            body {
+                background-color: #fff;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Artur Dias Rodrigues Vicente</h1>
+            <div class="contact-info">
+                <p><strong>Data de Nascimento:</strong> 18 de março de 1998</p>
+                <p><strong>Endereço:</strong> Serra, Espírito Santo, Brasil, Rua Amazonas, 668, 29168703</p>
+                <p><strong>Email:</strong> <a href="mailto:arturdrv@gmail.com">arturdrv@gmail.com</a></p>
+                <p><a href="https://www.linkedin.com/in/artur-dias-750082247/" target="_blank">LinkedIn</a></p>
+            </div>
+        </header>
+
+        <section class="section">
+            <h2>Resumo Profissional</h2>
+            <p>
+                Possuo formação em Engenharia de Controle e Automação com experiência consolidada em desenvolvimento de software baseado em nuvem e arquitetura de microsserviços. 
+                Ao longo de mais de 4 anos de prática, desenvolvi expertise na construção de soluções escaláveis em AWS, aplicando princípios SOLID e padrões de Clean Architecture. 
+                Atualmente na Auvo, foco no desenvolvimento de aplicações serverless utilizando AWS Lambda, API Gateway, SQS e DynamoDB, além de APIs robustas em .NET seguindo arquitetura de microsserviços. 
+                Minha experiência inclui criação de sistemas orientados a eventos, comunicação assíncrona com filas de mensagens e implementação de código limpo e sustentável que adere às melhores práticas da indústria. 
+                Possuo sólido domínio de Entity Framework, SQL Server, serviços de nuvem AWS e metodologias ágeis de desenvolvimento.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>Formação Acadêmica</h2>
+            <h4>Engenharia de Controle e Automação</h4>
+            <p><strong>IFES – Instituto Federal do Espírito Santo</strong></p>
+            <p class="job-period">Período: 01/01/2017 – 01/12/2025</p>
+        </section>
+
+        <section class="section">
+            <h2>Experiência Profissional</h2>
+            
+            <h3>Auvo</h3>
+            <p class="job-period">Período: 01/11/2024 – presente</p>
+            <ul>
+                <li>Desenvolvimento de <strong>aplicações serverless</strong> usando <strong>AWS Lambda</strong> e <strong>.NET</strong>, implementando soluções escaláveis e econômicas</li>
+                <li>Design e implementação de <strong>APIs RESTful</strong> com <strong>API Gateway</strong>, gerenciando autenticação, autorização e limitação de taxa</li>
+                <li>Arquitetura de <strong>microsserviços</strong> seguindo princípios de <strong>Clean Architecture</strong>, garantindo separação de responsabilidades e manutenibilidade</li>
+                <li>Aplicação de <strong>princípios SOLID</strong> em todo desenvolvimento de código, promovendo extensibilidade, testabilidade e práticas de código limpo</li>
+                <li>Implementação de <strong>comunicação assíncrona</strong> entre microsserviços usando <strong>Amazon SQS</strong>, melhorando resiliência do sistema e desacoplamento</li>
+                <li>Desenvolvimento de soluções de persistência de dados com <strong>Amazon DynamoDB</strong>, projetando chaves de partição eficientes e padrões de acesso</li>
+                <li>Integração de aplicações com <strong>SQL Server</strong> hospedado em <strong>Amazon RDS</strong>, garantindo consistência e confiabilidade dos dados</li>
+                <li>Criação de <strong>arquiteturas orientadas a eventos</strong>, processando mensagens e eventos em tempo real</li>
+                <li>Implementação de práticas de <strong>Clean Code</strong>, incluindo nomenclatura significativa, funções pequenas e testes unitários abrangentes</li>
+                <li>Desenvolvimento de aplicações web com <strong>Razor Pages</strong> e <strong>JavaScript</strong>, entregando soluções ágeis e amigáveis ao usuário</li>
+                <li>Otimização de <strong>funções Lambda</strong> para desempenho e eficiência de custos, implementando tratamento adequado de erros e logging</li>
+            </ul>
+            <div class="technologies">
+                <strong>Tecnologias utilizadas:</strong> AWS Lambda, API Gateway, Amazon SQS, Amazon DynamoDB, Amazon RDS, .NET, ASP.NET, Razor Pages, JavaScript, Microsserviços, Clean Architecture
+            </div>
+
+            <h3>Tozato Medições</h3>
+            <p class="job-period">Período: 01/11/2020 – 01/11/2024</p>
+            <ul>
+                <li>Desenvolvimento de <strong>ERP corporativo</strong> usando <strong>.NET, Blazor, Entity Framework, Minimal APIs e SQL Server</strong>, integrando módulos de vendas, estoque, financeiro e produção</li>
+                <li>Aplicação de <strong>princípios SOLID</strong> e práticas de <strong>Clean Code</strong> na arquitetura do ERP, facilitando manutenção e evolução a longo prazo</li>
+                <li>Implementação de <strong>arquitetura modular</strong> com clara separação de responsabilidades, seguindo padrões de Clean Architecture</li>
+                <li>Criação de <strong>APIs RESTful</strong> com <strong>Minimal APIs</strong>, implementando endpoints eficientes para integração de sistemas</li>
+                <li>Implementação de <strong>atualizações em tempo real</strong> com <strong>SignalR</strong> para sincronização instantânea de modificações do ERP entre múltiplos usuários e dispositivos</li>
+                <li>Desenvolvimento de <strong>interfaces responsivas e interativas</strong> com <strong>Blazor WebAssembly</strong> e <strong>Blazor Server</strong></li>
+                <li>Otimização de <strong>consultas SQL</strong> e implementação de <strong>índices</strong> para melhorar desempenho com grandes volumes de dados</li>
+                <li>Implementação de <strong>autenticação e autorização baseada em papéis</strong>, garantindo segurança e controle de acesso granular</li>
+                <li>Automação de processos internos com <strong>Entity Framework</strong> e <strong>LINQ</strong>, reduzindo tempo operacional e aumentando eficiência</li>
+                <li>Publicação e implantação usando <strong>Docker</strong>, garantindo portabilidade e consistência entre ambientes</li>
+            </ul>
+            <div class="technologies">
+                <strong>Tecnologias utilizadas:</strong> .NET, Blazor, Entity Framework, Minimal APIs, SignalR, SQL Server, Docker, Clean Code, SOLID
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Certificações</h2>
+            <ul>
+                <li><strong>Acesso a Dados com .NET</strong> | balta.io</li>
+                <li><strong>Fundamentos de ASP.NET</strong> | balta.io</li>
+                <li><strong>Fundamentos de Entity Framework</strong> | balta.io</li>
+                <li><strong>Fundamentos de Arquitetura Orientada a Eventos</strong> | balta.io</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Idiomas</h2>
+            <ul>
+                <li><strong>Português:</strong> Nativo</li>
+                <li><strong>Inglês:</strong> Proficiente</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <strong>Linguagens de Programação:</strong>
+                    C#, C++, JavaScript
+                </div>
+                <div class="skill-category">
+                    <strong>Frameworks e Tecnologias .NET:</strong>
+                    ASP.NET, Entity Framework, Blazor, Razor Pages, Minimal APIs, SignalR, LINQ, MVC
+                </div>
+                <div class="skill-category">
+                    <strong>Computação em Nuvem (AWS):</strong>
+                    AWS Lambda, API Gateway, Amazon SQS, Amazon DynamoDB, Amazon RDS, Arquitetura Serverless
+                </div>
+                <div class="skill-category">
+                    <strong>Arquitetura e Padrões de Design:</strong>
+                    Princípios SOLID, Clean Code, Clean Architecture, Microsserviços, Arquitetura Orientada a Eventos, APIs RESTful
+                </div>
+                <div class="skill-category">
+                    <strong>Bancos de Dados:</strong>
+                    SQL Server, MySQL, Amazon DynamoDB, Amazon RDS
+                </div>
+                <div class="skill-category">
+                    <strong>Containerização e Deploy:</strong>
+                    Docker
+                </div>
+                <div class="skill-category">
+                    <strong>Controle de Versão:</strong>
+                    Git
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Competências Principais</h2>
+            <div class="competency-item">
+                <strong>Princípios SOLID:</strong> Domínio e aplicação dos princípios de Responsabilidade Única, Aberto/Fechado, Substituição de Liskov, Segregação de Interface e Inversão de Dependência
+            </div>
+            <div class="competency-item">
+                <strong>Clean Code / Clean Architecture:</strong> Desenvolvimento de código sustentável, testável e modular seguindo melhores práticas da indústria
+            </div>
+            <div class="competency-item">
+                <strong>Microsserviços:</strong> Experiência no design, criação e integração de arquiteturas distribuídas de microsserviços
+            </div>
+            <div class="competency-item">
+                <strong>Amazon SQS:</strong> Implementação de filas de mensagens para comunicação assíncrona e desacoplada entre serviços
+            </div>
+            <div class="competency-item">
+                <strong>AWS Lambda:</strong> Criação, implantação e manutenção de funções serverless com otimização de desempenho
+            </div>
+            <div class="competency-item">
+                <strong>API Gateway:</strong> Configuração e gerenciamento de APIs REST com autenticação, autorização e monitoramento
+            </div>
+            <div class="competency-item">
+                <strong>Amazon DynamoDB:</strong> Design e implementação de modelos de dados NoSQL com padrões de acesso eficientes
+            </div>
+        </section>
+    </div>
+</body>
+</html>
